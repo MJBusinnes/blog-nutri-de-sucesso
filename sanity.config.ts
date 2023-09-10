@@ -1,6 +1,3 @@
-import { dashboardTool } from "@sanity/dashboard";
-import { netlifyWidget } from "sanity-plugin-dashboard-widget-netlify";
-
 import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
