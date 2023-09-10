@@ -1,6 +1,4 @@
-<p align="center">
-   <img src=".github/blog-cms.png" alt="Visualização da página inicial do blog" Width="100%" />
-</p>
+<
 
 # Sanity Blogging Content Studio
 
