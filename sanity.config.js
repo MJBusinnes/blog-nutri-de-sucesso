@@ -1,4 +1,5 @@
 import { defineConfig } from "sanity";
+import { myPlugin } from 'sanity-plugin-testing-it-out';
 import { dashboardTool, 
          projectInfoWidget, 
          projectUsersWidget, 
@@ -9,7 +10,7 @@ import { netlifyWidget } from "sanity-plugin-dashboard-widget-netlify";
 
 export default defineConfig({
   // ...
-  plugins: [
+  plugins: [myPlugin([]),
     dashboardTool({
         name: "stats",
         title: "Statistics",
