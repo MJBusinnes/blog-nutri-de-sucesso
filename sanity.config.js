@@ -1,9 +1,9 @@
 import { defineConfig } from "sanity";
-import { myPlugin } from 'sanity-plugin-testing-it-out';
+import { myPlugin } from "sanity-plugin-testing-it-out";
 import { dashboardTool, 
          projectInfoWidget, 
          projectUsersWidget, 
-         sanityTutorialsWidget 
+         sanityTutorialsWidget, 
        } from "@sanity/dashboard";
 import { ActivityIcon } from "@sanity/icons"      
 import { netlifyWidget } from "sanity-plugin-dashboard-widget-netlify";
